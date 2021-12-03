@@ -9,6 +9,7 @@
 [debug] 	Part1$.class
 [debug] 	Submarine$.class
 [debug] 	Direction$Up$.class
+[debug] 	MyParser.class
 [debug] 	Direction$Forward$.class
 [debug] 	Part1.class
 [debug] 	Submarine.class
@@ -23,11 +24,13 @@
 [debug] 	Part1$.class
 [debug] 	Submarine$.class
 [debug] 	Direction$Up$.class
+[debug] 	MyParser.class
 [debug] 	Direction$Forward$.class
 [debug] 	Part1.class
 [debug] 	Submarine.class
 [debug] 	Direction$.class
 [debug] Registering generated classes:
+[debug] 	MySecondParser.class
 [debug] 	Direction$toDirection.class
 [debug] 	Direction$toDirection$$anon$1.class
 [debug] 	Direction.class
@@ -37,6 +40,7 @@
 [debug] 	Part1$.class
 [debug] 	Submarine$.class
 [debug] 	Direction$Up$.class
+[debug] 	MyParser.class
 [debug] 	Direction$Forward$.class
 [debug] 	Part1.class
 [debug] 	Submarine.class

@@ -32,7 +32,19 @@ case class Submarine(vertical: Int, horizontal: Int) {
       case _ => Submarine(vertical, horizontal)
     }
   }
+}
 
+case class NewSubmarine(aim: Int, override val vertical: Int, override val horizontal: Int) extends Submarine(vertical, horizontal) {
+  override def move(movement: Movement): NewSubmarine = {
+    val direction = movement.direction
+    val value = movement.int
+    direction match {
+      case Direction.Down => NewSubmarine(aim + value, vertical, horizontal)
+      case Direction.Up => NewSubmarine(aim - value, vertical, horizontal)
+      case Direction.Forward => NewSubmarine(aim, vertical + (value * aim), horizontal + value)
+      case _ => NewSubmarine(aim, vertical, horizontal)
+    }
+  }
 }
 
 object Part1 extends IOApp {
@@ -41,7 +53,7 @@ object Part1 extends IOApp {
     val line = try source.mkString finally source.close()
     val parser = new MyParser
     val parsed = parser.parseAll(parser.listCoords, line).get
-    print(parsed.foldLeft(Submarine(0, 0))((sub, mov) => sub.move(mov)))
+    print(parsed.foldLeft(NewSubmarine(0, 0, 0))((sub, mov) => sub.move(mov)))
     IO(ExitCode.Success)
   }
 }

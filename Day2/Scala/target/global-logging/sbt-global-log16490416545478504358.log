@@ -1,0 +1,14 @@
+[debug] > Exec(all {file:/C:/Users/pavel/Documents/GitHub/AdventOfCode2021/Day2/Scala/}scala/products {file:/C:/Users/pavel/Documents/GitHub/AdventOfCode2021/Day2/Scala/}scala/test:products, None, None)
+[debug] Evaluating tasks: Compile / products, Test / products
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 2 Scala sources to C:\Users\pavel\Documents\GitHub\AdventOfCode2021\Day2\Scala\target\scala-2.13\classes ...
+[error] C:\Users\pavel\Documents\GitHub\AdventOfCode2021\Day2\Scala\src\main\scala\Solution.scala:37:12: case class NewSubmarine has case ancestor Submarine, but case-to-case inheritance is prohibited. To overcome this limitation, use extractors to pattern match on non-leaf nodes.
+[error] case class NewSubmarine(aim: Int, override val vertical: Int, override val horizontal: Int) extends Submarine(vertical, horizontal) {
+[error]            ^
+[error] one error found
+[debug] Forcing garbage collection...
+[error] (Compile / compileIncremental) Compilation failed
+[error] Total time: 1 s, completed Dec 3, 2021, 7:52:50 PM
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)
