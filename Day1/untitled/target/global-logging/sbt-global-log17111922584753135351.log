@@ -3,7 +3,7 @@
 [debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
 [info] compiling 1 Scala source to C:\Users\pavel\Documents\GitHub\AdventOfCode2021\Day1\untitled\target\scala-2.13\classes ...
 [info] done compiling
-[success] Total time: 1 s, completed Dec 3, 2021, 8:07:53 AM
+[success] Total time: 1 s, completed Dec 3, 2021, 8:24:09 AM
 [debug] > Exec(idea-shell, None, None)
 [debug] > Exec(, None, None)
 [debug] > Exec(idea-shell, None, None)

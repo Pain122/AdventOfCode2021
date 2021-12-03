@@ -1,17 +1,23 @@
 [debug] Created transactional ClassFileManager with tempDir = C:\Users\pavel\Documents\GitHub\AdventOfCode2021\Day1\untitled\target\scala-2.13\classes.bak
 [debug] About to delete class files:
+[debug] 	Solution$.class
+[debug] 	MainApp$.class
 [debug] 	MainApp.class
 [debug] 	Solution.class
-[debug] 	MainApp$.class
-[debug] 	Solution$.class
+[debug] 	Part2.class
+[debug] 	Part2$.class
 [debug] We backup class files:
+[debug] 	Solution$.class
+[debug] 	MainApp$.class
 [debug] 	MainApp.class
 [debug] 	Solution.class
-[debug] 	MainApp$.class
-[debug] 	Solution$.class
+[debug] 	Part2.class
+[debug] 	Part2$.class
 [debug] Registering generated classes:
+[debug] 	Solution$.class
+[debug] 	MainApp$.class
 [debug] 	MainApp.class
 [debug] 	Solution.class
-[debug] 	MainApp$.class
-[debug] 	Solution$.class
+[debug] 	Part2.class
+[debug] 	Part2$.class
 [debug] Removing the temporary directory used for backing up class files: C:\Users\pavel\Documents\GitHub\AdventOfCode2021\Day1\untitled\target\scala-2.13\classes.bak
