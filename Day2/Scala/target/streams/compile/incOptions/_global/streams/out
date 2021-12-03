@@ -1,0 +1,44 @@
+[debug] Created transactional ClassFileManager with tempDir = C:\Users\pavel\Documents\GitHub\AdventOfCode2021\Day2\Scala\target\scala-2.13\classes.bak
+[debug] About to delete class files:
+[debug] 	Direction$toDirection.class
+[debug] 	Direction$toDirection$$anon$1.class
+[debug] 	Direction.class
+[debug] 	Movement$.class
+[debug] 	Movement.class
+[debug] 	Direction$Down$.class
+[debug] 	Part1$.class
+[debug] 	Submarine$.class
+[debug] 	Direction$Up$.class
+[debug] 	Direction$Forward$.class
+[debug] 	Part1.class
+[debug] 	Submarine.class
+[debug] 	Direction$.class
+[debug] We backup class files:
+[debug] 	Direction$toDirection.class
+[debug] 	Direction$toDirection$$anon$1.class
+[debug] 	Direction.class
+[debug] 	Movement$.class
+[debug] 	Movement.class
+[debug] 	Direction$Down$.class
+[debug] 	Part1$.class
+[debug] 	Submarine$.class
+[debug] 	Direction$Up$.class
+[debug] 	Direction$Forward$.class
+[debug] 	Part1.class
+[debug] 	Submarine.class
+[debug] 	Direction$.class
+[debug] Registering generated classes:
+[debug] 	Direction$toDirection.class
+[debug] 	Direction$toDirection$$anon$1.class
+[debug] 	Direction.class
+[debug] 	Movement$.class
+[debug] 	Movement.class
+[debug] 	Direction$Down$.class
+[debug] 	Part1$.class
+[debug] 	Submarine$.class
+[debug] 	Direction$Up$.class
+[debug] 	Direction$Forward$.class
+[debug] 	Part1.class
+[debug] 	Submarine.class
+[debug] 	Direction$.class
+[debug] Removing the temporary directory used for backing up class files: C:\Users\pavel\Documents\GitHub\AdventOfCode2021\Day2\Scala\target\scala-2.13\classes.bak
